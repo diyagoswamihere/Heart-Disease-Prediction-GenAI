@@ -1,2 +1,2 @@
 # Heart-Disease-Prediction
-This project demonstrates the usage of Generative AI to generate synthetic datasets and Machine Learning Algorithms to train a Heart Disease Prediction Model
+This projects demonstrates the usage of generative AI and machine learning models to predict the presence of heart diseaase in an individual. We have used CTGAN, VAE and table diffusion as three techniques to generate our synthetic datasets and pre-tained models like Linear Regression, Decision Tree, KNN, SVM, XGBoost, CNN and an ensemble model to dtermine chances of an individual having heart disease based on tabular data. 

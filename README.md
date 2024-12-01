@@ -11,10 +11,11 @@ CONTENT:
 7.Results and Conclusion
 
 1. Requirements
-   To execute this project, the following libraries and tools are required:
-   Programming Language: Python 3.x
+
+To execute this project, the following libraries and tools are required:
+Programming Language: Python 3.x
    
-   Libraries:
+Libraries:
 pandas - Data manipulation and preprocessing
 numpy - Numerical computations
 scikit-learn - Machine learning models and evaluation
@@ -23,7 +24,7 @@ tensorflow - Deep learning framework
 imbalanced-learn - Dataset balancing (SMOTE)
 seaborn and matplotlib - Visualization tools
 
-   Dataset Files:
+Dataset Files:
 synthetic_data_ctgan.csv
 synthetic_data_vae.csv
 synthetic_data_table_diffusion.csv
@@ -33,9 +34,10 @@ Install the requirements using:
 !pip install pandas numpy scikit-learn xgboost tensorflow imbalanced-learn seaborn matplotlib
 
 2. Introduction
+
 This project explores the use of synthetic data in building a Heart Disease Prediction System. By generating synthetic datasets with CTGAN, VAE, and Table Diffusion, we overcome data scarcity and imbalances in the original dataset. The goal is to train multiple machine learning models on the synthetic data and evaluate their performance on the original dataset to assess reliability and robustness.
 
-3. Dataset
+4. Dataset
    
 Original Dataset: A dataset containing clinical and demographic information for heart disease diagnosis has been taken kaggle containing
 14 parameters like age, sex, blood pressure etc. with target 1 for heart disease, 0 for no disease.
